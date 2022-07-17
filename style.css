@@ -54,8 +54,17 @@ body {
   border: none;
   background-color: #262626;
   margin-right: 100px;
+  border-radius: 50%;
+}
+.arrow-right {
+  border: none;
+  border-radius: 50%;
 }
 .arrow-left:active {
+  stroke: beige;
+  box-shadow: 0 0 1em #a7b42e;
+}
+.arrow-right:active {
   stroke: beige;
   box-shadow: 0 0 1em #a7b42e;
 }
