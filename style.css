@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap");
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #262626;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  box-shadow: 0 0 1em #a7b42e;
+  height: 700px;
+  width: 550px;
+  margin: 68px;
+}
+#content {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 50px;
+}
+#starWarsImage {
+  margin-top: 20px;
+  height: 150px;
+}
+.characterPicture {
+  height: 230px;
+  width: 350px;
+  border-radius: 10px;
+}
+#characterName {
+  margin-top: 20px;
+  color: wheat;
+  font-family: "Edu SA Beginner", cursive;
+  font-size: 30px;
+}
+
+.arrows {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  color: antiquewhite;
+}
+.arrow-left {
+  border: none;
+  background-color: #262626;
+  margin-right: 100px;
+}
+.arrow-left:active {
+  stroke: beige;
+  box-shadow: 0 0 1em #a7b42e;
+}
