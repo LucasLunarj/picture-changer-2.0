@@ -1,5 +1,6 @@
 let characterPic = document.querySelector(".characterPicture");
 let character = document.getElementById("characterName");
+let interval = setInterval(right, 5000);
 let characterNames = [
   "Obi Wan Kenobi",
   "Anakin Skywalker/Darth Vader",
@@ -20,8 +21,8 @@ function right() {
   character.innerHTML = `${characterNames[count]}`;
   characterPic.src = characterPictures[count];
   count++;
-  if (count >= 4) {
-    count = 4;
+  if (count > 4) {
+    count = 0;
   }
 }
 let count2 = count;
@@ -30,7 +31,7 @@ function left() {
   console.log(count);
   character.innerHTML = `${characterNames[count]}`;
   characterPic.src = characterPictures[count];
-  if (count <= 0) {
+  if (count < 0) {
     count = 1;
   }
 }
