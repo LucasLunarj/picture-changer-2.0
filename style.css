@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   margin: 0;
 }
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap");
@@ -16,7 +17,7 @@ body {
   /* border: 1px solid black; */
   border-radius: 20px;
   box-shadow: 0 0 1em #a7b42e;
-  height: 700px;
+  height: 100;
   width: 550px;
   margin: 68px;
 }
